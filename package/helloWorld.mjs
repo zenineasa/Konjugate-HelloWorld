@@ -1,4 +1,4 @@
-/* Copyright © 2026 Konjugate contributors */
+/* Copyright © 2026 Zenin Easa Panthakkalakath */
 
 const status = document.querySelector('#status');
 const details = document.querySelector('#details');

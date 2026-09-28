@@ -1,0 +1,13 @@
+{
+  "name": "konjugate-helloworld",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A minimal Konjugate add-on template -- start here to learn how to author one.",
+  "copyright": "Copyright © 2026 Zenin Easa Panthakkalakath",
+  "license": "MPL-2.0",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "install:dev": "node scripts/build.mjs && node scripts/installDev.mjs"
+  }
+}

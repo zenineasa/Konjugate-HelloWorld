@@ -1,11 +1,11 @@
 {
-    "addonId": "example.helloWorld",
+    "addonId": "konjugate.helloWorld",
     "name": "Hello World",
     "version": "0.1.0",
     "apiVersion": 1,
     "kind": "resultVisualizer",
     "entry": "index.html",
-    "copyright": "Copyright © 2026 Konjugate contributors",
+    "copyright": "Copyright © 2026 Zenin Easa Panthakkalakath",
     "permissions": ["results.read"],
     "contributes": {
         "toolstrip": [{

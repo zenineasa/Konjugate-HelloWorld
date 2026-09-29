@@ -10,7 +10,9 @@ const { createPackageArchive } = await import(pathToFileURL(konjugateModule('src
 const packageDirectory = join(repoRoot, 'package');
 const outputDirectory = join(repoRoot, 'out');
 
-const manifest = JSON.parse(await readFile(join(packageDirectory, 'addon.json'), 'utf8'));
+// package.json is the single source of the version, so release tags always match the package.
+const { version } = JSON.parse(await readFile(join(repoRoot, 'package.json'), 'utf8'));
+const manifest = { ...JSON.parse(await readFile(join(packageDirectory, 'addon.json'), 'utf8')), version };
 const files = {};
 for (const name of await readdir(packageDirectory)) {
     if (name === 'addon.json') continue;

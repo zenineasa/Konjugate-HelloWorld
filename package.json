@@ -1,6 +1,7 @@
 {
   "name": "konjugate-helloworld",
   "version": "1.0.1",
+  "minimumKonjugateVersion": "1.1.15",
   "private": true,
   "type": "module",
   "description": "A minimal Konjugate add-on template -- start here to learn how to author one.",
